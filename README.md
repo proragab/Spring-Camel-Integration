@@ -33,7 +33,7 @@ address.
 
 Ask for a new access token via valid refresh-token, using HTTP POST on /oauth/token, with grant_type=refresh_token,and sending actual refresh token. Additionally, send client credentials in Authorization header username=> root and password => root
 
-POST http://localhost:9090/oauth/token?token?grant_type=refresh_token&refresh_token={refresh_token}
+POST http://localhost:9090/oauth/token?grant_type=refresh_token&refresh_token={refresh_token}
 
 
 
